@@ -6,7 +6,7 @@ Write a function which takes a ROT13 encoded string as input and returns a decod
 function rot13(str) {
 
 let NewStr = "";
-let convert;
+let convert;g5vb2 wsz
 let reg = /[A-Z]/;
   for (let char in str)
   {
