@@ -1,0 +1,54 @@
+div
+{
+  margin: auto;
+  width:50%;
+  background-color: #000080;
+  display: flex;
+  flex-direction : column;
+  align-items: center;
+  color: white;
+  font-size : 18px;
+  font-family : sans-serif;
+  font-weight: bolder;
+}
+
+
+p
+{
+  margin-top : 0;
+  font-style: italic;
+}
+
+h1
+{
+  margin-bottom: 10px;
+}
+
+div input, div select
+{
+  display : block;
+  margin-bottom: 30px;
+ 
+}
+#name,#email,#number
+{
+  width: 100%;
+}
+
+label
+{
+  display:block;
+}
+
+label input
+{
+  display:inline ;
+}
+
+#submit
+{
+  width: 100%;
+  background-color : yellow;
+  padding:10px;
+ 
+}
