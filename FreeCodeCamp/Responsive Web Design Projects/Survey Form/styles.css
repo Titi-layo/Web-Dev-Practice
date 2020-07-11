@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 div
 {
   margin: auto;
@@ -7,15 +11,12 @@ div
   flex-direction : column;
   align-items: center;
   color: white;
-  font-size : 18px;
   font-family : sans-serif;
   font-weight: bolder;
 }
 
-
-p
+#description
 {
-  margin-top : 0;
   font-style: italic;
 }
 
@@ -24,25 +25,27 @@ h1
   margin-bottom: 10px;
 }
 
-div input, div select
+div select
 {
   display : block;
   margin-bottom: 30px;
+  width : 100%;
  
 }
+
 #name,#email,#number
 {
+  display : block;
   width: 100%;
+  margin-bottom: 30px;
+  
 }
 
 label
 {
-  display:block;
-}
-
-label input
-{
-  display:inline ;
+  display : block;
+  width: 100%;
+  margin-top: 20px;
 }
 
 #submit
@@ -51,4 +54,18 @@ label input
   background-color : yellow;
   padding:10px;
  
+}
+
+.text-align
+{
+  text-align : center;
+}
+
+@media (max-width : 700px)
+{
+  div
+  {
+    width:100%;
+    
+  }
 }

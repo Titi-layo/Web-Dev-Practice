@@ -8,17 +8,18 @@
 </head>
 <body>
     <div>
-        <h1 id="title">FreeCodeCamp Survey Form</h1>
-        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <h1 id="title" class="text-align">FreeCodeCamp Survey Form</h1>
+        <p id="description" class="text-align">Thank you for taking the time to help us improve the platform</p>
         <form id="survey-form">
           <label for="name" id="name-label">Name</label>
-          <input id="name" type="text" required="true" placeholder="Enter your name"/>
+          <input id="name" type="text" required="true" 
+          placeholder="Enter your name" />
           
           <label for="email" id="email-label">Email</label>
-          <input type="email" id="email" placeholder="Enter your Email" required="true"/>
+          <input type="email" id="email" placeholder="Enter your Email" required="true" />
           
           <label for="number" id="number-label">Age (optional)</label>
-          <input type="number" min="0" max="40" id="number" placeholder="Age"/>
+          <input type="number" min="0" max="40" id="number" placeholder="Age" />
           
           <label id="dropdown">Which option best describes your current role
             <select>
@@ -106,7 +107,7 @@
              Any comments or suggestions?
          </label>
          
-         <textarea id="comments" placeholder="Enter your comment here..." style = "width : 100%; height : 50px;" ></textarea>
+         <textarea id="comments" placeholder="Enter your comment here..." style = "width : 100%; height : 50px;"></textarea>
           
          <input id="submit" type="submit" value="Submit"/> 
       
